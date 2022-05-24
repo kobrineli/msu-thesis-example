@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibDoi\def\BibDoi#1{DOI:
+  \href{https://doi.org/#1}{\detokenize{#1}}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{tanenbaum2015}
+\selectlanguageifdefined{english}
+\BibEmph{Tanenbaum,~Andrew~S}. Modern Operating Systems~/ Andrew~S~Tanenbaum,
+  Herbert~Bos. ---
+\newblock 4th Edition edition. ---
+\newblock Pearson, 2015. ---
+\newblock Pp.~640--649.
+
+\bibitem{halperin08}
+\selectlanguageifdefined{english}
+\BibEmph{Halperin,~Daniel}. Pacemakers and Implantable Cardiac Defibrillators:
+  Software Radio Attacks and Zero-Power Defenses~/ Daniel~Halperin,
+  Thomas~S~Heydt-Benjamin, Benjamin~Ransford, Shane~S~Clark, Benessa~Defend,
+  Will~Morgan, Kevin~Fu, Tadayoshi~Kohno, William~H~Maisel~// 2008 IEEE
+  Symposium on Security and Privacy (sp 2008)~/ IEEE. ---
+\newblock 2008. ---
+\newblock Pp.~129--142. \BibDoi{10.1109/SP.2008.31}.
+
+\bibitem{heartbleed}
+\selectlanguageifdefined{english}
+The {{H}}eartbleed Bug. \BibUrl{http://heartbleed.com}.
+
+\bibitem{vishnyakov18}
+\selectlanguageifdefined{russian}
+\BibEmph{Вишняков,~А.~В.} Метод анализа атак
+  повторного использования кода~/
+  А.~В.~Вишняков, А.~Р.~Нурмухаметов,
+  Ш.~Ф.~Курмангалеев, С.~С.~Гайсарян~//
+  \BibEmph{Труды института системного
+  программирования РАН}. ---
+\newblock 2018. ---
+\newblock Т.~30, {№}~5. ---
+\newblock {С.}~31--54. \BibDoi{10.15514/ISPRAS-2018-30(5)-2}.
+
+\end{thebibliography}

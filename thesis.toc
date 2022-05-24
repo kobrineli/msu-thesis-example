@@ -1,0 +1,5 @@
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1}Введение}{4}{section.1}%
+\contentsline {section}{\numberline {2}Постановка задачи}{5}{section.2}%
+\contentsline {section}{\numberline {3}Заключение}{6}{section.3}%
+\contentsline {section}{{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrl \cyri \cyrt \cyre \cyrr \cyra \cyrt \cyru \cyrr \cyrery }}{7}{section*.1}%
